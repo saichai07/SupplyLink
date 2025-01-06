@@ -1,5 +1,6 @@
 package com.wecp.progressive.repository;
 
+<<<<<<< HEAD
 import com.wecp.progressive.entity.Supplier;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
@@ -16,3 +17,8 @@ public interface SupplierRepository extends JpaRepository<Supplier, Integer> {
 
     Supplier findByEmail(String email);
 }
+=======
+
+public interface SupplierRepository {
+}
+>>>>>>> 2877139363ec064b7e0a8480defa7b1dcabcf405

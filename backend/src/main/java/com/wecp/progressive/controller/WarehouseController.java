@@ -2,7 +2,10 @@ package com.wecp.progressive.controller;
 
 import com.wecp.progressive.entity.Warehouse;
 import org.springframework.http.ResponseEntity;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.RestController;
+=======
+>>>>>>> 2877139363ec064b7e0a8480defa7b1dcabcf405
 
 import java.util.List;
 
@@ -32,4 +35,8 @@ public class WarehouseController {
     public ResponseEntity<List<Warehouse>> getWarehousesBySupplier(int supplierId) {
         return null;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2877139363ec064b7e0a8480defa7b1dcabcf405

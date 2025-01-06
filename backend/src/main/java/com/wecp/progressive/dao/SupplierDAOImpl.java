@@ -40,8 +40,14 @@ public class SupplierDAOImpl implements SupplierDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+<<<<<<< HEAD
             throw e; 
         } finally {
+=======
+            throw e; // Rethrow the exception
+        } finally {
+            // Close resources in the reverse order of opening
+>>>>>>> 2877139363ec064b7e0a8480defa7b1dcabcf405
             if (statement != null) {
                 statement.close();
             }
@@ -74,7 +80,11 @@ public class SupplierDAOImpl implements SupplierDAO {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+<<<<<<< HEAD
             throw e;
+=======
+            throw e; // Rethrow the exception
+>>>>>>> 2877139363ec064b7e0a8480defa7b1dcabcf405
         } finally {
             if (connection != null) {
                 connection.close();
